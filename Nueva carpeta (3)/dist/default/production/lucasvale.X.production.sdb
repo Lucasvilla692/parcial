@@ -1,0 +1,628 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1937 ]
+[d frameptr 6 ]
+"83 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/adc.c
+[e E2950 . `uc
+channel_AN0 0
+channel_AN1 1
+channel_AN2 2
+channel_Temp 29
+channel_DAC 30
+channel_FVR 31
+]
+"48 C:\Users\ADMIN\Desktop\lucasvale.X\main.c
+[e E2952 . `uc
+channel_AN0 0
+channel_AN1 1
+channel_AN2 2
+channel_Temp 29
+channel_DAC 30
+channel_FVR 31
+]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"72 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"623
+[v _xtoa xtoa `(i  1 s 2 xtoa ]
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1368
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isalpha.c
+[v _isalpha isalpha `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\islower.c
+[v _islower islower `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\toupper.c
+[v _toupper toupper `(i  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"18 C:\Users\ADMIN\Desktop\lucasvale.X\main.c
+[v _checksum checksum `(uc  1 e 1 0 ]
+"29
+[v _enviar_trama enviar_trama `(v  1 e 1 0 ]
+"40
+[v _main main `(v  1 e 1 0 ]
+"65 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"110
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+"66 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"146
+[v _putch putch `(v  1 e 1 0 ]
+"153
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"50 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+[s S146 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"732 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f1937.h
+[u S155 . 1 `S146 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES155  1 e 1 @17 ]
+"1307
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1369
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1431
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1493
+[v _TRISD TRISD `VEuc  1 e 1 @143 ]
+"1555
+[v _TRISE TRISE `VEuc  1 e 1 @144 ]
+[s S370 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1781
+[s S379 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S384 . 1 `S370 1 . 1 0 `S379 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES384  1 e 1 @149 ]
+"1892
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1951
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"2009
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2150
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"2170
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"2190
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S33 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"2219
+[s S41 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S45 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S48 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[u S51 . 1 `S33 1 . 1 0 `S41 1 . 1 0 `S45 1 . 1 0 `S48 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES51  1 e 1 @157 ]
+"2279
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2351
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2413
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2475
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2537
+[v _LATD LATD `VEuc  1 e 1 @271 ]
+"2607
+[v _LATE LATE `VEuc  1 e 1 @272 ]
+"2917
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"3266
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"3322
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3380
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3438
+[v _ANSELD ANSELD `VEuc  1 e 1 @399 ]
+"3508
+[v _ANSELE ANSELE `VEuc  1 e 1 @400 ]
+"3742
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"3762
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"3798
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"3848
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"3881
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+[s S188 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3898
+[u S197 . 1 `S188 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES197  1 e 1 @413 ]
+"3943
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+[s S167 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3960
+[u S176 . 1 `S167 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES176  1 e 1 @414 ]
+"4005
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"4057
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4127
+[v _WPUE WPUE `VEuc  1 e 1 @528 ]
+"55 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+[s S279 trama 17 `us 1 header 2 0 `uc 1 state 1 2 `f 1 voltaje1 4 3 `f 1 voltaje2 4 7 `f 1 voltaje3 4 11 `uc 1 otros 1 15 `uc 1 cheksum 1 16 ]
+"38 C:\Users\ADMIN\Desktop\lucasvale.X\main.c
+[v _trama2 trama2 `S279  1 e 17 0 ]
+[s S100 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/eusart.c
+[u S105 . 1 `S100 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES105  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"40 C:\Users\ADMIN\Desktop\lucasvale.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"62
+} 0
+"29
+[v _enviar_trama enviar_trama `(v  1 e 1 0 ]
+{
+[v enviar_trama@data data `*.4v  1 a 1 wreg ]
+"31
+[v enviar_trama@i i `uc  1 a 1 15 ]
+"30
+[v enviar_trama@puntero puntero `*.4uc  1 a 1 13 ]
+"29
+[v enviar_trama@data data `*.4v  1 a 1 wreg ]
+[v enviar_trama@size_trama size_trama `uc  1 p 1 79 ]
+[v enviar_trama@data data `*.4v  1 a 1 14 ]
+"36
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.4v  1 a 1 9 ]
+"5
+[v printf@fmt fmt `*.25DCuc  1 p 2 3 ]
+"13
+} 0
+"1368 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S599 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.1S599  1 a 1 wreg ]
+"1371
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 1 ]
+"1368
+[v vfprintf@fp fp `*.1S599  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 73 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 75 ]
+"1373
+"1368
+[v vfprintf@fp fp `*.1S599  1 a 1 0 ]
+"1382
+} 0
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+[s S599 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.1S599  1 a 1 wreg ]
+"675
+[v vfpfcnvrt@llu llu `uo  1 a 8 59 ]
+"673
+[v vfpfcnvrt@done done `i  1 a 2 67 ]
+"672
+[v vfpfcnvrt@c c `uc  1 a 1 71 ]
+"670
+[v vfpfcnvrt@fp fp `*.1S599  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 51 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 52 ]
+"680
+"670
+[v vfpfcnvrt@fp fp `*.1S599  1 a 1 72 ]
+"1365
+} 0
+"623
+[v _xtoa xtoa `(i  1 s 2 xtoa ]
+{
+[s S599 _IO_FILE 0 ]
+[v xtoa@fp fp `*.1S599  1 a 1 wreg ]
+"626
+[v xtoa@n n `uo  1 a 8 39 ]
+"625
+[v xtoa@c c `i  1 a 2 49 ]
+[v xtoa@i i `i  1 a 2 47 ]
+[v xtoa@w w `i  1 a 2 37 ]
+[v xtoa@p p `i  1 a 2 34 ]
+"623
+[v xtoa@fp fp `*.1S599  1 a 1 wreg ]
+[v xtoa@d d `uo  1 p 8 13 ]
+[v xtoa@x x `uc  1 p 1 21 ]
+"629
+"623
+[v xtoa@fp fp `*.1S599  1 a 1 36 ]
+"665
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\toupper.c
+[v _toupper toupper `(i  1 e 2 0 ]
+{
+[v toupper@c c `i  1 p 2 6 ]
+"8
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\islower.c
+[v _islower islower `(i  1 e 2 0 ]
+{
+[v islower@c c `i  1 p 2 0 ]
+"8
+} 0
+"72 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+{
+[s S599 _IO_FILE 0 ]
+[v pad@fp fp `*.1S599  1 a 1 wreg ]
+"74
+[v pad@w w `i  1 a 2 10 ]
+[v pad@i i `i  1 a 2 8 ]
+"72
+[v pad@fp fp `*.1S599  1 a 1 wreg ]
+[v pad@buf buf `*.4uc  1 p 1 4 ]
+[v pad@p p `i  1 p 2 5 ]
+"77
+"72
+[v pad@fp fp `*.1S599  1 a 1 12 ]
+"95
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+[v strlen@s s `*.4DCuc  1 a 1 wreg ]
+"14
+[v strlen@a a `*.4DCuc  1 a 1 3 ]
+"12
+[v strlen@s s `*.4DCuc  1 a 1 wreg ]
+"14
+[v strlen@s s `*.4DCuc  1 a 1 4 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+[v fputs@s s `*.4DCuc  1 a 1 wreg ]
+"11
+[v fputs@i i `i  1 a 2 1 ]
+"10
+[v fputs@c c `uc  1 a 1 0 ]
+"8
+[v fputs@s s `*.4DCuc  1 a 1 wreg ]
+[s S1016 _IO_FILE 5 `*.1uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[v fputs@fp fp `*.1S1016  1 p 1 10 ]
+"13
+[v fputs@s s `*.4DCuc  1 a 1 3 ]
+"19
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 2 ]
+[s S1016 _IO_FILE 5 `*.1uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[v fputc@fp fp `*.1S1016  1 p 1 4 ]
+"21
+} 0
+"146 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/eusart.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"148
+[v putch@txData txData `uc  1 a 1 1 ]
+"149
+} 0
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+{
+[v isupper@c c `i  1 p 2 0 ]
+"8
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isalpha.c
+[v _isalpha isalpha `(i  1 e 2 0 ]
+{
+[v isalpha@c c `i  1 p 2 0 ]
+"8
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+"6
+[v atoi@n n `i  1 a 2 7 ]
+[v atoi@neg neg `i  1 a 2 0 ]
+"4
+[v atoi@s s `*.25DCuc  1 p 2 6 ]
+"16
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+{
+[v isspace@c c `i  1 p 2 0 ]
+"8
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+{
+[v isdigit@c c `i  1 p 2 0 ]
+"8
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"18 C:\Users\ADMIN\Desktop\lucasvale.X\main.c
+[v _checksum checksum `(uc  1 e 1 0 ]
+{
+[v checksum@data data `*.4v  1 a 1 wreg ]
+"19
+[v checksum@contador contador `uc  1 a 1 6 ]
+"21
+[v checksum@i i `uc  1 a 1 5 ]
+"20
+[v checksum@puntero puntero `*.4uc  1 a 1 4 ]
+"18
+[v checksum@data data `*.4v  1 a 1 wreg ]
+[v checksum@size_trama size_trama `uc  1 p 1 0 ]
+[v checksum@data data `*.4v  1 a 1 3 ]
+"27
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 2 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 1 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 4 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 0 ]
+"44
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S824 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S829 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S832 . 4 `l 1 i 4 0 `d 1 f 4 0 `S824 1 fAsBytes 4 0 `S829 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S832  1 a 4 52 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 46 ]
+[s S901 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S904 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S901 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S904  1 a 2 56 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 51 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 50 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 45 ]
+"8
+[v ___flmul@b b `d  1 p 4 32 ]
+[v ___flmul@a a `d  1 p 4 36 ]
+"205
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 26 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 19 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 24 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 31 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 30 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 23 ]
+"8
+[v ___fldiv@a a `d  1 p 4 6 ]
+[v ___fldiv@b b `d  1 p 4 10 ]
+"185
+} 0
+"50 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"55 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"101
+} 0
+"60 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"68
+} 0
+"66 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"172
+} 0
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"168
+} 0
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"176
+} 0
+"65 C:\Users\ADMIN\Desktop\lucasvale.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"81
+} 0
+"110
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `E2950  1 a 1 wreg ]
+[v ADC_GetConversion@channel channel `E2950  1 a 1 wreg ]
+"113
+[v ADC_GetConversion@channel channel `E2950  1 a 1 3 ]
+"131
+} 0
